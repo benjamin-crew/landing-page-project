@@ -1,0 +1,28 @@
+/* styles.css */
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    background-color: blue;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+}
+
+.header ul {
+    display: flex;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.main {
+    background-color: red;
+}
+
+.footer {
+    background-color: green;
+}
