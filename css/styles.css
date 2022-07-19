@@ -11,12 +11,18 @@ body {
     justify-content: space-between;
     align-items: center;
     padding: 5px;
+    color: white;
 }
 
 .header ul {
     display: flex;
     text-decoration: none;
     list-style-type: none;
+    color: grey;
+}
+
+.header li {
+    padding: 5px;
 }
 
 .main {
