@@ -1,34 +1,113 @@
 /* styles.css */
 
 body {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
+  padding: 0px;
+  margin: 0px;
+  font-family: "Roboto";
 }
 
 .header {
-    background-color: blue;
+  background-color: #1f2937;
+  padding: 0px 200px;
+}
+
+.header h2 {
+  font-size: 24px;
+  color: #f9faf8;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: -40px;
+  padding: 10px;
+  color: white;
+}
+
+.navbar ul {
+  display: flex;
+  text-decoration: none;
+  list-style-type: none;
+  color: grey;
+}
+
+.navbar li {
+  padding: 10px;
+  font-size: 18px;
+  color: #e5e7eb;
+}
+
+.hero-section {
+  display: flex;
+  background-color: #1f2937;
+  padding-left: 200px;
+  padding-right: 200px;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.hero-left {
+    text-align: left;
+    margin-right: 50px;
+
+}
+.hero-right img {
+    width: 400px;
+    height: 275px;
+}
+
+.hero-section h1 {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
+}
+
+.hero-section p {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.hero-section button {
+    background: blue;
+    color: black;
+}
+
+.random-info-section {
+  display: flex;
+  justify-content: center;
+  background-color: blue;
+}
+
+.quote-section {
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
-    padding: 5px;
-    color: white;
+    background-color: #E5E7EB;
+    padding: 0 150px;
 }
 
-.header ul {
-    display: flex;
-    text-decoration: none;
-    list-style-type: none;
-    color: grey;
+.quote-section p {
+    font-size: 36px;
+    padding: 10 150px;
+    font-style: italic;
+    font-weight: lighter;
 }
 
-.header li {
-    padding: 5px;
-}
-
-.main {
-    background-color: red;
+.quote-section b {
+    margin-left: 200px;
+    text-align: right;
+    padding-bottom: 20px;
+    padding-right: 10px;
 }
 
 .footer {
-    background-color: green;
+  display: flex;
+  justify-content: center;
+  padding: 20px 50px;
+  background-color: #1f2937;
+  font-size: 18px;
+  color: #e5e7eb;
 }
