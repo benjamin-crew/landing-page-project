@@ -41,66 +41,129 @@ body {
 
 .hero-section {
   display: flex;
+  justify-content: space-evenly;
   background-color: #1f2937;
-  padding-left: 200px;
-  padding-right: 200px;
-  padding-top: 100px;
-  padding-bottom: 100px;
+  padding: 100px 200px;
 }
 
 .hero-left {
-    text-align: left;
-    margin-right: 50px;
-
+  text-align: left;
+  margin-right: 50px;
+  width: 400px;
 }
 .hero-right img {
-    width: 400px;
-    height: 275px;
+  width: 400px;
+  height: 275px;
 }
 
 .hero-section h1 {
-    font-size: 48px;
-    font-weight: bolder;
-    color: #f9faf8;
+  font-size: 48px;
+  font-weight: 800;
+  color: #f9faf8;
 }
 
 .hero-section p {
-    font-size: 18px;
-    color: #e5e7eb;
+  font-size: 18px;
+  color: #e5e7eb;
 }
 
 .hero-section button {
-    background: blue;
-    color: black;
+  color: white;
+  background-color: #3882f6;
+  border: 1px solid #3882f6;
+  border-radius: 5px;
+  padding: 5px 10px;
 }
 
 .random-info-section {
   display: flex;
+  flex-direction: column;
+  padding: 100px 200px;
+}
+
+.random-info-section-text h1 {
+  display: flex;
   justify-content: center;
-  background-color: blue;
+  font-size: 36px;
+  font-weight: 800;
+}
+
+.random-info-section-content {
+  display: flex;
+  justify-content: center;
+  gap: 52px;
+}
+
+.random-info-section-content img {
+  width: 250px;
+  height: 175px;
+  border: 3px solid #3882f6;
+  border-radius: 25px;
+}
+
+.random-info-section-content .text {
+  width: 250px;
+  text-align: center;
 }
 
 .quote-section {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background-color: #E5E7EB;
-    padding: 0 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #e5e7eb;
+  padding: 100px 200px;
 }
 
 .quote-section p {
-    font-size: 36px;
-    padding: 10 150px;
-    font-style: italic;
-    font-weight: lighter;
+  font-size: 36px;
+  padding: 10 150px;
+  font-weight: 300;
+  width: 40%;
 }
 
 .quote-section b {
-    margin-left: 200px;
-    text-align: right;
-    padding-bottom: 20px;
-    padding-right: 10px;
+  margin-left: 200px;
+  text-align: right;
+  padding-bottom: 20px;
+  padding-right: 10px;
+}
+
+.signup-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 100px 200px;
+}
+
+.callup-container {
+  display: flex;
+  align-items: center;
+  background: #3882f6;
+  color: white;
+  border-radius: 8px;
+  padding: 25px 50px;
+}
+
+.callup-text h1 {
+  font-size: 24px;
+}
+
+.callup-text p {
+  margin-top: -15px;
+  font-size: 12px;
+}
+
+.callup-button {
+  margin-left: 75px;
+}
+
+.callup-button button {
+  color: white;
+  background-color: #3882f6;
+  border: 1px solid white;
+  border-radius: 5px;
+  padding: 5px 10px;
 }
 
 .footer {
